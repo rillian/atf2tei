@@ -151,6 +151,7 @@ class Line(XMLSerializer):
         xml.text = self.content
         return xml
 
+
 class Note(XMLSerializer):
     '''Represents an annotation.'''
     def __init__(self, text):
