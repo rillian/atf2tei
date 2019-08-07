@@ -7,4 +7,4 @@ install:
   - pipenv install --dev
 script:
   - pipenv run pytest
-  - pipenv run pycodestyle atf2tei.py
+  - pipenv run pycodestyle .
